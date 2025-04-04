@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-df = pd.read_csv("/home/maroof/analysis_of_states_exc.csv")
+df = pd.read_csv("/home/miq/analysis_of_states_exc.csv")
 
 df_clean = df.copy()
 
