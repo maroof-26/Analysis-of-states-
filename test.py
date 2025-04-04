@@ -2,10 +2,10 @@ from __future__ import division
 import pandas as pd
 
 # Importing CSVs
-keys = pd.read_csv("/home/maroof/Downloads/Analysis of States - KEYS.csv")
-census_population_state = pd.read_csv("/home/maroof/Downloads/Analysis of States - CENSUS_POPULATION_STATE.tsv", sep="\t")
-census_mhi_estate = pd.read_csv("/home/maroof/Downloads/Analysis of States - CENSUS_MHI_STATE.csv")
-redfin_median_sale_price = pd.read_csv("/home/maroof/Downloads/Analysis of States - REDFIN_MEDIAN_SALE_PRICE.csv", header =1)
+keys = pd.read_csv("/home/miq/Downloads/Analysis of States - KEYS.csv")
+census_population_state = pd.read_csv("/home/miq/Downloads/Analysis of States - CENSUS_POPULATION_STATE.tsv", sep="\t")
+census_mhi_estate = pd.read_csv("/home/miq/Downloads/Analysis of States - CENSUS_MHI_STATE.csv")
+redfin_median_sale_price = pd.read_csv("/home/miq/Downloads/Analysis of States - REDFIN_MEDIAN_SALE_PRICE.csv", header =1)
 
 
 
